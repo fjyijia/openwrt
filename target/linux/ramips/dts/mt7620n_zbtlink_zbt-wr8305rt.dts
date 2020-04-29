@@ -7,7 +7,7 @@
 
 / {
 	compatible = "zbtlink,zbt-wr8305rt", "ralink,mt7620n-soc";
-	model = "Zbtlink ZBT-WR8305RT";
+	model = "RXwifi RX-5";
 
 	aliases {
 		led-boot = &led_sys;
@@ -90,7 +90,7 @@
 			partition@50000 {
 				compatible = "denx,uimage";
 				label = "firmware";
-				reg = <0x50000 0x7b0000>;
+				reg = <0x50000 0xfb0000>;
 			};
 		};
 	};
